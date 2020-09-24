@@ -1,12 +1,12 @@
 main {
-    background: rgb(248,248,248);
+    background: $mainBackground;
     border-radius: 10px;
     padding: 20px;
     width: 440px;
     margin: 40px 0;
 
     .line {
-        border-bottom: 1px solid lightgray;
+        border-bottom: 1px solid $secondary;
         width: 50%;
         margin: 0 auto;
         opacity: 40%;
@@ -24,22 +24,23 @@ main {
 
         h2 {
             text-transform: uppercase;
-            color: darkslategray;
+            color: $primary;
             font-size: 2rem;
         }
 
         h3 {
             text-transform: uppercase;
-            color: rgb(149,149,149);
+            color: $third;
             font-size: 1.15rem;
             padding-top: 4px;
         }
 
         p {
-            color: rgb(190,190,190);
+            color: $primary;
             padding-top: 10px;
             font-family: SfLight;
             font-size: 0.8rem;
+            opacity: 60%;
         }
     }
     

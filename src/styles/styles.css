@@ -30,7 +30,7 @@ img {
 
 .wrapper {
   max-width: 77%;
-  height: 100vh;
+  height: 100%;
   background: #0d2147;
   margin: 0 auto;
   display: -webkit-box;
@@ -50,7 +50,7 @@ img {
 
 ul {
   list-style-type: none;
-  color: grey;
+  color: lightgray;
   text-transform: uppercase;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -60,10 +60,11 @@ ul {
   border-radius: 20px;
   font-family: SfLight;
   font-size: 0.8rem;
+  opacity: 50%;
 }
 
 ul li {
-  border-right: 1px solid grey;
+  border-right: 1px solid lightgray;
   padding: 0 10px;
 }
 
@@ -115,10 +116,11 @@ main .mainHeader h3 {
 }
 
 main .mainHeader p {
-  color: #bebebe;
+  color: darkslategray;
   padding-top: 10px;
   font-family: SfLight;
   font-size: 0.8rem;
+  opacity: 60%;
 }
 
 main .playerCards {

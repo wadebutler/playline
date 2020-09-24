@@ -1,16 +1,17 @@
 ul {
     list-style-type: none;
-    color: grey;
+    color: $secondary;
     text-transform: uppercase;
     display: flex;
-    background: rgb(12,32,68);
+    background: $backgroundAccent;
     padding: 10px;
     border-radius: 20px;
     font-family: SfLight;
     font-size: 0.8rem;
+    opacity: 50%;
 
     li {
-        border-right: 1px solid grey;
+        border-right: 1px solid $secondary;
         padding: 0 10px;
 
         &:last-child {

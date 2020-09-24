@@ -15,8 +15,8 @@ img {
 
 .wrapper {
     max-width: 77%;
-    height: 100vh;
-    background: rgb(13,33,71);
+    height: 100%;
+    background: $background;
     margin: 0 auto;
     display: flex;
     flex-direction: column;

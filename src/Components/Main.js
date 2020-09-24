@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-// import Lebron from './Lebron';
-
-const namesURL = "https://playline-dev-test.s3-us-west-2.amazonaws.com/playline-test.json";
+import James from "./James";
+import Davis from "./Davis";
+import Gordon from "./Gordan";
+import Siakam from "./Siakam";
+import Leonard from "./Leonard";
+import Lowry from "./Lowry";
+import Russell from "./Russell";
+import Buttons from "./Buttons";
+import Download from './Download';
 
 class Main extends Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             james: {
                 name: "",
@@ -82,23 +88,48 @@ class Main extends Component {
     render() {
         return (
             <main>
-                <section>
-                    <h2>Your Playline is Set</h2>
-                    <h3>Come back @ 7:30pm to track it live</h3>
-                    <hr/>
+                <figure className="progressBar">
+                    <img src={require("../assets/icons/progress@2x.png")} alt="progress bar"/>
+                </figure>
+                <section className="mainHeader">
+                    <h2>Your Playline is Set!</h2>
+                    <h3>Come back @ 7:30pm to track it live!</h3>
+                    <p className="line"></p>
                     <p>Pro Tip: you can manage your Playline's until they go live in the Upcoming area</p>
                 </section>
                 <section>
-                    <div>
-                        {/* <figure>
-                            <img
-                                className="playerIcon"
-                                src={require("../assets/headshots/Lebron-James.png")} alt="headshot of lebron james"
-                            />
-                        </figure> */}
-                        {/* <p>{this.state.lebron.name}</p> */}
-                    </div>
+                    <James
+                        name={this.state.james.name}
+                        points={this.state.james.points}
+                    />
+                    <Davis
+                        name={this.state.davis.name}
+                        points={this.state.davis.points}
+                    />
+                    <Gordon
+                        name={this.state.gordon.name}
+                        points={this.state.gordon.points}
+                    />
+                    <Siakam
+                        name={this.state.siakam.name}
+                        points={this.state.siakam.points}
+                    />
+                    <Leonard
+                        name={this.state.leonard.name}
+                        points={this.state.leonard.points}
+                    />
+                    <Lowry
+                        name={this.state.lowry.name}
+                        points={this.state.lowry.points}
+                    />
+                    <Russell
+                        name={this.state.russell.name}
+                        points={this.state.russell.points}
+                    />
                 </section>
+                <Buttons />
+                <p className="line"></p>
+                <Download />
             </main>
         );
     }

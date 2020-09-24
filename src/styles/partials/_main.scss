@@ -1,0 +1,38 @@
+main {
+    background: rgb(248,248,248);
+    border-radius: 10px;
+    padding: 20px;
+    width: 460px;
+    margin: 40px 0;
+
+    .line {
+        border-bottom: 1px solid lightgray;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .progressBar {
+        width: 60%;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .mainHeader {
+        text-align: center;
+
+        h2 {
+            text-transform: uppercase;
+            color: rgb(70,70,70);
+        }
+
+        h3 {
+            text-transform: uppercase;
+            color: rgb(149,149,149);
+        }
+
+        p {
+            color: rgb(190,190,190);
+            padding-top: 10px;
+        }
+    }
+}

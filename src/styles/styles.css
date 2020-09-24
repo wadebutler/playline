@@ -43,9 +43,14 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+@media (min-width: 1600px) {
+  .wrapper {
+    height: 100vh;
+  }
 }
 
 ul {
@@ -61,6 +66,7 @@ ul {
   font-family: SfLight;
   font-size: 0.8rem;
   opacity: 50%;
+  padding-bottom: 50px;
 }
 
 ul li {

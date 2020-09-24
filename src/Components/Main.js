@@ -97,7 +97,7 @@ class Main extends Component {
                     <p className="line"></p>
                     <p>Pro Tip: you can manage your Playline's until they go live in the Upcoming area</p>
                 </section>
-                <section>
+                <section className="playerCards">
                     <James
                         name={this.state.james.name}
                         points={this.state.james.points}

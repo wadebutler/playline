@@ -22,7 +22,7 @@ const Buttons = () => {
                             alt="a bar of money icon"
                         />
                     </figure>
-                    <p>Deposite</p>
+                    <p>Deposit</p>
                 </a>
             </div>
         </section>

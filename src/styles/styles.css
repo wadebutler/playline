@@ -1,3 +1,18 @@
+@font-face {
+  font-family: Morgan;
+  src: url("../fonts/MorganPosterAvec Bold.otf");
+}
+
+@font-face {
+  font-family: SfLight;
+  src: url("../fonts/SF Pro Display Light.ttf");
+}
+
+@font-face {
+  font-family: SfBold;
+  src: url("../fonts/SF Pro Display Bold.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +20,7 @@
 
 body {
   background: black;
+  font-size: 62.5%;
 }
 
 img {
@@ -61,7 +77,7 @@ main {
   background: #f8f8f8;
   border-radius: 10px;
   padding: 20px;
-  width: 460px;
+  width: 440px;
   margin: 40px 0;
 }
 
@@ -69,6 +85,7 @@ main .line {
   border-bottom: 1px solid lightgray;
   width: 60%;
   margin: 0 auto;
+  opacity: 40%;
 }
 
 main .progressBar {
@@ -79,11 +96,12 @@ main .progressBar {
 
 main .mainHeader {
   text-align: center;
+  font-family: Morgan;
 }
 
 main .mainHeader h2 {
   text-transform: uppercase;
-  color: #464646;
+  color: darkslategray;
 }
 
 main .mainHeader h3 {
@@ -94,14 +112,30 @@ main .mainHeader h3 {
 main .mainHeader p {
   color: #bebebe;
   padding-top: 10px;
+  font-family: SfLight;
+}
+
+main .playerCards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
 }
 
 .playerCard {
-  display: inline-block;
+  margin-left: -6px;
+  margin-top: 20px;
+}
+
+.playerCard figure {
+  padding-bottom: 5px;
 }
 
 .playerCard .playerIcon {
-  background: #f0f0f0;
+  background: lightgray;
   border-radius: 50%;
   border: 2px solid white;
   width: 50px;
@@ -118,30 +152,74 @@ main .mainHeader p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #bebebe;
+  color: darkslategray;
   text-transform: uppercase;
+  font-family: Sflight;
 }
 
 .playerCard .playerInfo .points {
-  border: 3px solid #bebebe;
-  padding: 5px;
-  border-radius: 50px;
-  color: #464646;
-  margin: 5px 0;
+  -webkit-box-shadow: 0px 0px 1px darkslategray;
+          box-shadow: 0px 0px 1px darkslategray;
+  padding: 4px;
+  border-radius: 50%;
+  color: darkslategray;
+  background: white;
+  font-family: Morgan;
+}
+
+.pointBackdrop {
+  background: lightgray;
+  padding: 1px;
+  border-radius: 50%;
+  -webkit-box-shadow: 0px 0px 0px darkslategray;
+          box-shadow: 0px 0px 0px darkslategray;
+  margin: 6px 0;
+}
+
+.james {
+  z-index: 7;
+}
+
+.davis {
+  z-index: 6;
+}
+
+.gordon {
+  z-index: 5;
+}
+
+.siakam {
+  z-index: 4;
+}
+
+.leonard {
+  z-index: 3;
+}
+
+.lowry {
+  z-index: 2;
+}
+
+.russell {
+  z-index: 1;
 }
 
 .buttons {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   padding: 20px;
 }
 
 .buttons div {
   display: inline-block;
+}
+
+.buttons div:first-of-type {
+  margin-right: 20px;
 }
 
 .buttons div a {
@@ -151,18 +229,19 @@ main .mainHeader p {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 3px solid #bebebe;
+  border: 1px solid lightgray;
   border-radius: 50px;
   text-decoration: none;
-  color: #464646;
+  color: darkslategray;
   text-transform: uppercase;
-  padding: 6px 8px;
+  padding: 4px 10px;
+  font-family: SfBold;
 }
 
 .buttons div a figure {
   width: 20px;
   height: 20px;
-  padding-right: 10px;
+  padding-right: 12px;
 }
 
 .download {
@@ -181,7 +260,8 @@ main .mainHeader p {
 
 .download p {
   text-transform: uppercase;
-  color: #959595;
+  font-family: SfBold;
+  color: darkslategray;
   padding-bottom: 10px;
 }
 

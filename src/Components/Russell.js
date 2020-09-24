@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Russell extends Component {
     render() {
         return (
-            <div className="playerCard">
+            <div className="playerCard Russell">
                 <figure>
                     <img
                         className="playerIcon"
@@ -13,7 +13,9 @@ class Russell extends Component {
                 </figure>
                 <div className="playerInfo">
                     <p>{this.props.name}</p>
-                    <p className="points">{this.props.points}</p>
+                    <div className="pointBackdrop">
+                        <p className="points">{this.props.points}</p>
+                    </div>
                     <p>pts</p>
                 </div>
             </div>

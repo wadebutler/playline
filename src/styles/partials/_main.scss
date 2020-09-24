@@ -7,7 +7,7 @@ main {
 
     .line {
         border-bottom: 1px solid lightgray;
-        width: 60%;
+        width: 50%;
         margin: 0 auto;
         opacity: 40%;
     }
@@ -25,17 +25,21 @@ main {
         h2 {
             text-transform: uppercase;
             color: darkslategray;
+            font-size: 2rem;
         }
 
         h3 {
             text-transform: uppercase;
             color: rgb(149,149,149);
+            font-size: 1.15rem;
+            padding-top: 4px;
         }
 
         p {
             color: rgb(190,190,190);
             padding-top: 10px;
             font-family: SfLight;
+            font-size: 0.8rem;
         }
     }
     

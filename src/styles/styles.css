@@ -58,6 +58,8 @@ ul {
   background: #0c2044;
   padding: 10px;
   border-radius: 20px;
+  font-family: SfLight;
+  font-size: 0.8rem;
 }
 
 ul li {
@@ -83,7 +85,7 @@ main {
 
 main .line {
   border-bottom: 1px solid lightgray;
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   opacity: 40%;
 }
@@ -102,17 +104,21 @@ main .mainHeader {
 main .mainHeader h2 {
   text-transform: uppercase;
   color: darkslategray;
+  font-size: 2rem;
 }
 
 main .mainHeader h3 {
   text-transform: uppercase;
   color: #959595;
+  font-size: 1.15rem;
+  padding-top: 4px;
 }
 
 main .mainHeader p {
   color: #bebebe;
   padding-top: 10px;
   font-family: SfLight;
+  font-size: 0.8rem;
 }
 
 main .playerCards {
@@ -165,6 +171,7 @@ main .playerCards {
   color: darkslategray;
   background: white;
   font-family: Morgan;
+  font-size: 0.8rem;
 }
 
 .pointBackdrop {
@@ -234,8 +241,9 @@ main .playerCards {
   text-decoration: none;
   color: darkslategray;
   text-transform: uppercase;
-  padding: 4px 10px;
+  padding: 8px 14px;
   font-family: SfBold;
+  font-size: 0.8rem;
 }
 
 .buttons div a figure {
@@ -263,6 +271,8 @@ main .playerCards {
   font-family: SfBold;
   color: darkslategray;
   padding-bottom: 10px;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
 }
 
 .download div {

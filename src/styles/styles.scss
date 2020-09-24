@@ -1,3 +1,4 @@
+// GLOBAL
 * {
     margin: 0;
     padding: 0;
@@ -6,11 +7,15 @@
 
 body {
     background: black;
-    
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
 
 .wrapper {
-    max-width: 80%;
+    max-width: 77%;
     height: 100vh;
     background: rgb(13,33,71);
     margin: 0 auto;
@@ -20,6 +25,32 @@ body {
     justify-content: space-around;
 }
 
+// MAIN
+
+main {
+    background: rgb(248,248,248);
+    border-radius: 10px;
+    padding: 20px;
+}
+// rgb(70,70,70) h2
+// rgb(157,157,157) h3
+// rgb(240,240,240) image background 
+
+hr {
+    border: 1px solid red;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.playerIcon {
+    background: rgb(240,240,240);
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 50px;
+    
+}
+
+// FOOTER
 ul {
     list-style-type: none;
     color: grey;

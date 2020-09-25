@@ -6,7 +6,7 @@ export const Buttons = () => {
     return (
         <section className="buttons">
             <div>
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.google.com/">
                     <figure>
                         <img
                             src={notify}
@@ -17,7 +17,7 @@ export const Buttons = () => {
                 </a>
             </div>
             <div>
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.google.com/">
                     <figure>
                         <img
                             src={moneyBag}

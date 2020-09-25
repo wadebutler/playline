@@ -7,12 +7,12 @@ export const Download = () => {
         <section className="download">
             <p>Download the App</p>
             <div>
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.google.com/">
                 <figure>
                     <img src={appStore} alt="the apple app store icon" />
                 </figure>
                 </a>
-                <a href="https://www.google.com/" target="_blank">
+                <a href="https://www.google.com/">
                 <figure>
                     <img src={googlePlay} alt="the google play store icon" />
                 </figure>

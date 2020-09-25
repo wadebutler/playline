@@ -4,7 +4,7 @@
 }
 
 body {
-    background: black;
+    background: $background;
     font-size: 62.5%;
 }
 
@@ -14,16 +14,12 @@ img {
 }
 
 .wrapper {
-    max-width: 77%;
-    height: 100%;
-    background: $background;
+    max-width: 1280px;
+    min-height: 100vh;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-
-    @media (min-width: 1600px){
-        height: 100vh;
-    } 
 }

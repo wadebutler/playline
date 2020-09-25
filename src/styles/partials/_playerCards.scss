@@ -1,6 +1,8 @@
 .playerCard {
     margin-left: -6px;
     margin-top: 20px;
+    min-height: 130px;
+    animation: fadein 0.5s ease-in;
 
     figure {
         padding-bottom: 5px;

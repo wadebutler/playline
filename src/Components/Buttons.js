@@ -2,11 +2,11 @@ import React from 'react';
 import notify from "../assets/icons/notify-me@2x.png";
 import moneyBag from "../assets/icons/money-bag@2x.png";
 
-const Buttons = () => {
+export const Buttons = () => {
     return (
         <section className="buttons">
             <div>
-                <a href="">
+                <a href="https://www.google.com/" target="_blank">
                     <figure>
                         <img
                             src={notify}
@@ -17,7 +17,7 @@ const Buttons = () => {
                 </a>
             </div>
             <div>
-                <a href="">
+                <a href="https://www.google.com/" target="_blank">
                     <figure>
                         <img
                             src={moneyBag}
@@ -30,5 +30,3 @@ const Buttons = () => {
         </section>
     );
 }
-
-export default Buttons;

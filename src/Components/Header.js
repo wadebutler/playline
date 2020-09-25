@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from "../assets/logo/logo@1x.png";
 
-const Header = () => {
+export const Header = () => {
     return (
         <header>
             <h1>
@@ -12,5 +12,3 @@ const Header = () => {
         </header>
     );
 }
-
-export default Header;

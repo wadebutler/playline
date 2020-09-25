@@ -4,16 +4,16 @@ ul {
     text-transform: uppercase;
     display: flex;
     background: $backgroundAccent;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 1rem;
+    border-radius: 2rem;
     font-family: SfLight;
     font-size: 0.8rem;
     opacity: 50%;
-    padding-bottom: 50px;
+    padding-bottom: 5rem;
 
     li {
-        border-right: 1px solid $secondary;
-        padding: 0 10px;
+        border-right: 0.1rem solid $secondary;
+        padding: 0 1rem;
 
         &:last-child {
             border-right: none;

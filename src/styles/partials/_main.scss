@@ -1,21 +1,22 @@
 main {
     background: $mainBackground;
     border-radius: 10px;
-    padding: 20px;
-    width: 440px;
-    margin: 40px 0;
+    padding: 2rem;
+    width: 30rem;
+    margin: 4rem 0;
 
     .line {
-        border-bottom: 1px solid $secondary;
+        border-bottom: 0.1rem solid $secondary;
         width: 50%;
         margin: 0 auto;
+        margin-top: 1rem;
         opacity: 40%;
     }
 
     .progressBar {
         width: 60%;
         margin: 0 auto;
-        padding-bottom: 20px;
+        padding-bottom: 2rem;
     }
 
     .mainHeader {
@@ -32,12 +33,12 @@ main {
             text-transform: uppercase;
             color: $third;
             font-size: 1.15rem;
-            padding-top: 4px;
+            padding-top: 0.4rem;
         }
 
         p {
             color: $primary;
-            padding-top: 10px;
+            padding-top: 1rem;
             font-family: SfLight;
             font-size: 0.8rem;
             opacity: 60%;
@@ -48,7 +49,7 @@ main {
         display: flex;
         justify-content: center;
         position: relative;
-        min-height: 130px;
+        min-height: 10rem;
         width: 100%;
     }
 }

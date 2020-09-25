@@ -1,18 +1,18 @@
 .playerCard {
-    margin-left: -6px;
-    margin-top: 20px;
-    min-height: 130px;
+    margin-left: -0.3rem;
+    margin-top: 2rem;
+    min-height: 8rem;
     animation: fadein 0.5s ease-in;
 
     figure {
-        padding-bottom: 5px;
+        padding-bottom: 0.5rem;
     }
 
     .playerIcon {
         background: $secondary;
         border-radius: 50%;
-        border: 2px solid white;
-        width: 50px;
+        border: 0.2rem solid white;
+        width: 3rem;
     }
 
     .playerInfo {
@@ -24,8 +24,8 @@
         font-family: Sflight;
 
         .points {
-            box-shadow: 0px 0px 1px $primary;
-            padding: 4px; 
+            box-shadow: 0 0 0.1rem $primary;
+            padding: 0.4rem; 
             border-radius: 50%;
             color: $primary;
             background: white;
@@ -37,36 +37,8 @@
 
 .pointBackdrop {
     background: $secondary ;
-    padding: 1px;
+    padding: 0.1rem;
     border-radius: 50%;
     box-shadow: 0px 0px 0px $primary;
-    margin: 6px 0;
-}
-
-.james {
-    z-index: 7;
-}
-
-.davis {
-    z-index: 6;
-}
-
-.gordon {
-    z-index: 5;
-}
-
-.siakam {
-    z-index: 4;
-}
-
-.leonard {
-    z-index: 3;
-}
-
-.lowry {
-    z-index: 2;
-}
-
-.russell {
-    z-index: 1;
+    margin: 0.6rem 0;
 }

@@ -73,17 +73,17 @@ ul {
   display: -ms-flexbox;
   display: flex;
   background: #0c2044;
-  padding: 10px;
-  border-radius: 20px;
+  padding: 1rem;
+  border-radius: 2rem;
   font-family: SfLight;
   font-size: 0.8rem;
   opacity: 50%;
-  padding-bottom: 50px;
+  padding-bottom: 5rem;
 }
 
 ul li {
-  border-right: 1px solid lightgray;
-  padding: 0 10px;
+  border-right: 0.1rem solid lightgray;
+  padding: 0 1rem;
 }
 
 ul li:last-child {
@@ -97,22 +97,23 @@ ul li:hover {
 main {
   background: #f8f8f8;
   border-radius: 10px;
-  padding: 20px;
-  width: 440px;
-  margin: 40px 0;
+  padding: 2rem;
+  width: 30rem;
+  margin: 4rem 0;
 }
 
 main .line {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 0.1rem solid lightgray;
   width: 50%;
   margin: 0 auto;
+  margin-top: 1rem;
   opacity: 40%;
 }
 
 main .progressBar {
   width: 60%;
   margin: 0 auto;
-  padding-bottom: 20px;
+  padding-bottom: 2rem;
 }
 
 main .mainHeader {
@@ -130,12 +131,12 @@ main .mainHeader h3 {
   text-transform: uppercase;
   color: #959595;
   font-size: 1.15rem;
-  padding-top: 4px;
+  padding-top: 0.4rem;
 }
 
 main .mainHeader p {
   color: darkslategray;
-  padding-top: 10px;
+  padding-top: 1rem;
   font-family: SfLight;
   font-size: 0.8rem;
   opacity: 60%;
@@ -149,27 +150,27 @@ main .playerCards {
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  min-height: 130px;
+  min-height: 10rem;
   width: 100%;
 }
 
 .playerCard {
-  margin-left: -6px;
-  margin-top: 20px;
-  min-height: 130px;
+  margin-left: -0.3rem;
+  margin-top: 2rem;
+  min-height: 8rem;
   -webkit-animation: fadein 0.5s ease-in;
           animation: fadein 0.5s ease-in;
 }
 
 .playerCard figure {
-  padding-bottom: 5px;
+  padding-bottom: 0.5rem;
 }
 
 .playerCard .playerIcon {
   background: lightgray;
   border-radius: 50%;
-  border: 2px solid white;
-  width: 50px;
+  border: 0.2rem solid white;
+  width: 3rem;
 }
 
 .playerCard .playerInfo {
@@ -189,9 +190,9 @@ main .playerCards {
 }
 
 .playerCard .playerInfo .points {
-  -webkit-box-shadow: 0px 0px 1px darkslategray;
-          box-shadow: 0px 0px 1px darkslategray;
-  padding: 4px;
+  -webkit-box-shadow: 0 0 0.1rem darkslategray;
+          box-shadow: 0 0 0.1rem darkslategray;
+  padding: 0.4rem;
   border-radius: 50%;
   color: darkslategray;
   background: white;
@@ -201,39 +202,11 @@ main .playerCards {
 
 .pointBackdrop {
   background: lightgray;
-  padding: 1px;
+  padding: 0.1rem;
   border-radius: 50%;
   -webkit-box-shadow: 0px 0px 0px darkslategray;
           box-shadow: 0px 0px 0px darkslategray;
-  margin: 6px 0;
-}
-
-.james {
-  z-index: 7;
-}
-
-.davis {
-  z-index: 6;
-}
-
-.gordon {
-  z-index: 5;
-}
-
-.siakam {
-  z-index: 4;
-}
-
-.leonard {
-  z-index: 3;
-}
-
-.lowry {
-  z-index: 2;
-}
-
-.russell {
-  z-index: 1;
+  margin: 0.6rem 0;
 }
 
 .buttons {
@@ -243,7 +216,8 @@ main .playerCards {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 20px;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
 }
 
 .buttons div {
@@ -251,7 +225,7 @@ main .playerCards {
 }
 
 .buttons div:first-of-type {
-  margin-right: 20px;
+  margin-right: 2rem;
 }
 
 .buttons div a {
@@ -261,20 +235,20 @@ main .playerCards {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  border: 1px solid lightgray;
-  border-radius: 50px;
+  border: 0.1rem solid lightgray;
+  border-radius: 5rem;
   text-decoration: none;
   color: darkslategray;
   text-transform: uppercase;
-  padding: 8px 14px;
+  padding: 0.4rem 1rem;
   font-family: SfBold;
   font-size: 0.8rem;
 }
 
 .buttons div a figure {
-  width: 20px;
-  height: 20px;
-  padding-right: 12px;
+  width: 2rem;
+  height: 2rem;
+  padding-right: 1.2rem;
 }
 
 .download {
@@ -288,16 +262,15 @@ main .playerCards {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 20px;
+  padding-top: 1rem;
 }
 
 .download p {
   text-transform: uppercase;
   font-family: SfBold;
   color: darkslategray;
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
   font-size: 0.8rem;
-  padding-bottom: 20px;
 }
 
 .download div {
@@ -311,6 +284,6 @@ main .playerCards {
 }
 
 .download div a {
-  width: 90px;
+  width: 7rem;
 }
 /*# sourceMappingURL=styles.css.map */

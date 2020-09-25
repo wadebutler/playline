@@ -1,4 +1,6 @@
 import React from 'react';
+import notify from "../assets/icons/notify-me@2x.png";
+import moneyBag from "../assets/icons/money-bag@2x.png";
 
 const Buttons = () => {
     return (
@@ -7,7 +9,7 @@ const Buttons = () => {
                 <a href="">
                     <figure>
                         <img
-                            src={require("../assets/icons/notify-me@2x.png")}
+                            src={notify}
                             alt="a bell icon"
                         />
                     </figure>
@@ -18,7 +20,7 @@ const Buttons = () => {
                 <a href="">
                     <figure>
                         <img
-                            src={require("../assets/icons/money-bag@2x.png")}
+                            src={moneyBag}
                             alt="a bar of money icon"
                         />
                     </figure>

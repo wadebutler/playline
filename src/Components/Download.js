@@ -1,4 +1,6 @@
 import React from 'react';
+import appStore from "../assets/icons/ios-app@2x.png";
+import googlePlay from "../assets/icons/google-play@2x.png";
 
 const Download = () => {
     return (
@@ -8,7 +10,7 @@ const Download = () => {
                 <a href="">
                     <figure>
                         <img 
-                            src={require("../assets/icons/ios-app@2x.png")} 
+                            src={appStore} 
                             alt="the apple app store icon" 
                         />
                     </figure>
@@ -16,7 +18,7 @@ const Download = () => {
                 <a href="">
                     <figure>
                         <img 
-                            src={require("../assets/icons/google-play@2x.png")} 
+                            src={googlePlay} 
                             alt="the google play store icon" 
                         />
                     </figure>

@@ -4,6 +4,7 @@ import axios from 'axios';
 import Buttons from "./Buttons";
 import Download from './Download';
 import {PlayerCard} from "./PlayerCard";
+import progress from "../assets/icons/progress@2x.png";
 
 export const Main = () => {
     const [players, setPlayers] = useState([]);
@@ -27,7 +28,7 @@ export const Main = () => {
         <main>
             <figure className="progressBar">
                 <img 
-                    src={require("../assets/icons/progress@2x.png")} 
+                    src={progress} 
                     alt="progress bar"/>
             </figure>
             <section className="mainHeader">
